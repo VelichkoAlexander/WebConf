@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="230" height="41" viewBox="0 0 230 41">
+  <defs>
+    <style>
+
+      .cls-2 {
+        font-size: 72px;
+      }
+
+      .cls-4 {
+        fill: #474747;
+        font-family: "Sinhala MN";
+        font-size: 72px;
+      }
+
+      .cls-5 {
+        fill: #e37000;
+        font-family: "Sinhala MN";
+        font-size: 72px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" y="40px"><tspan class="cls-2"><tspan class="cls-4">Web</tspan><tspan class="cls-5">Conf</tspan></tspan></text>
+</svg>

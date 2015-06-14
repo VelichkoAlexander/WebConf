@@ -1,0 +1,22 @@
+{
+  "name": "gulp-alexander-velichko.com",
+  "version": "0.1.0",
+  "devDependencies": {
+    "browser-sync": "^2.7.1",
+    "gulp": "^3.8.11"
+  },
+  "description": "alexander-velichko.com",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wiredep": "^2.2.2"
+  }
+}
