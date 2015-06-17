@@ -282,22 +282,26 @@ footer h1 {
   height: 40px;
   background: url('../images/Bird_Background.png') no-repeat;
 }
+.form-widget {
+  position: relative;
+}
 .form-widget h1 {
   margin-bottom: 17px;
 }
 .form-widget input {
   margin-bottom: 8px;
 }
-.form-widget button {
-  background-color: #e37000;
-  background: -webkit-linear-gradient(90deg, rgba(244, 162, 81, 0) 0%, #f4a251 100%);
-  background: -moz-linear-gradient(90deg, rgba(244, 162, 81, 0) 0%, #f4a251 100%);
-  background: -o-linear-gradient(90deg, rgba(244, 162, 81, 0) 0%, #f4a251 100%);
-  background: -ms-linear-gradient(90deg, rgba(244, 162, 81, 0) 0%, #f4a251 100%);
-  background: linear-gradient(0deg, rgba(244, 162, 81, 0) 0%, #f4a251 100%);
-  width: 73px;
-  height: 25px;
+.form-widget textarea {
+  resize: none;
+  height: 63px;
+}
+.form-widget a {
+  right: 9px;
+  bottom: 0;
+  position: absolute;
+  padding: 3px 27px;
   color: #ffffff;
+  background: url('../images/Send Message Button.png') no-repeat;
 }
 .social-btns {
   border-top: 1px solid black;
