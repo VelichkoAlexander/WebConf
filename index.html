@@ -3,8 +3,17 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Enter your content here.">
+
 	<title>WebConf</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -12,14 +21,13 @@
 <body>
 <header class="container">
 	<!--NAV-BAR-->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" role="navigation">
 		<!--LOGO-->
 		<a class="navbar-brand" href="#"><img src="images/WebConf.svg" alt="logo"></a>
 
 		<!-- MOBILE MENU -->
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-
-				collapse-1">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -62,7 +70,7 @@
 		</div>
 		<!-- /.navbar-collapse -->
 	</nav>
-	<section id="slider">
+	<section id="slider" class="hidden-sm hidden-xs">
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 			<!-- Indicators -->
@@ -73,54 +81,56 @@
 			</ol>
 
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
+			<div class="carousel-inner " role="listbox">
 
 				<div class="item active">
-					<section class="carousel-caption">
-						<div class="slide-heder">
+					<section class="carousel-caption1 clearfix">
+						<div class="slide-heder col-md-4 col-sm-12">
 							<p>This Month</p>
 
 							<h2>FEATURED WORK</h2>
 						</div>
-						<div class="slide-text">
+						<div class="slide-text col-sm-12 col-md-8">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dignissimos, deleniti
 							excepturi praesentium voluptate dolorum eaque modi sint nisi voluptatibus tempora rem. Optio
 							voluptas soluta porro quibusdam nemo at illum.
 						</div>
 					</section>
-					<img src="images/slide1.jpg" alt="slide1">
+					<div class="image_wrap">
+						<img  class="img-responsive" src="images/slide1.jpg" alt="slide1">
+					</div>
 				</div>
 
 				<div class="item">
-					<section class="carousel-caption">
-						<div class="slide-heder">
+					<section class="carousel-caption1 clearfix">
+						<div class="slide-heder col-md-4 col-sm-12">
 							<p>This Month</p>
 
 							<h2>FEATURED WORK</h2>
 						</div>
-						<div class="slide-text">
+						<div class="slide-text col-sm-12 col-md-8">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dignissimos, deleniti
 							excepturi praesentium voluptate dolorum eaque modi sint nisi voluptatibus tempora rem. Optio
 							voluptas soluta porro quibusdam nemo at illum.
 						</div>
 					</section>
-					<img src="images/slide2.jpg" alt="slide2">
+					<img class="img-responsive" src="images/slide2.jpg" alt="slide2">
 				</div>
 
 				<div class="item">
-					<section class="carousel-caption">
-						<div class="slide-heder">
+					<section class="carousel-caption1 clearfix">
+						<div class="slide-heder col-md-4 col-sm-12">
 							<p>This Month</p>
 
 							<h2>FEATURED WORK</h2>
 						</div>
-						<div class="slide-text">
+						<div class="slide-text col-sm-12 col-md-8">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dignissimos, deleniti
 							excepturi praesentium voluptate dolorum eaque modi sint nisi voluptatibus tempora rem. Optio
 							voluptas soluta porro quibusdam nemo at illum.
 						</div>
 					</section>
-					<img src="images/slide2.jpg" alt="slide2">
+					<img class="img-responsive" src="images/slide2.jpg" alt="slide2">
 				</div>
 			</div>
 		</div>
@@ -131,7 +141,7 @@
 <section class="container proposal">
 	<div class="row">
 
-		<section class="col-md-4">
+		<section class="col-md-4 col-sm-6 col-xs-12">
 
 			<h1><a href="#">Check out our latest projects</a></h1>
 
@@ -141,7 +151,7 @@
 
 			<a href="#">Find out more</a>
 		</section>
-		<section class="col-md-4">
+		<section class="col-md-4 col-sm-6 col-xs-12">
 
 			<h1><a href="#">Guarantee 5 star quality work</a></h1>
 
@@ -151,7 +161,7 @@
 
 			<a href="#">Find out more</a>
 		</section>
-		<section class="col-md-4">
+		<section class="col-md-4 col-sm-12 col-xs-12">
 
 			<h1><a href="#">Stay connected by reading the blog</a></h1>
 
@@ -172,8 +182,8 @@
 		</div>
 	</div>
 	<div class="row">
-		<section class="col-md-3">
-			<img src="images/red_cups.jpg" alt="red_cups">
+		<section class="col-md-3 col-sm-6">
+			<img class="img-responsive" src="images/red_cups.jpg" alt="red_cups">
 
 			<h1>MANY RED CUPS</h1>
 
@@ -182,8 +192,8 @@
 			<a href="#">View project</a>
 		</section>
 
-		<section class="col-md-3">
-			<img src="images/soft_chairs.jpg" alt="soft_chairs">
+		<section class="col-md-3 col-sm-6">
+			<img class="img-responsive" src="images/soft_chairs.jpg" alt="soft_chairs">
 
 			<h1>SOFT CHAIRS</h1>
 
@@ -192,8 +202,8 @@
 			<a href="#">View project</a>
 		</section>
 
-		<section class="col-md-3">
-			<img src="images/fantastic_views.jpg" alt="fantastic_views">
+		<section class="col-md-3 col-sm-6">
+			<img class="img-responsive" src="images/fantastic_views.jpg" alt="fantastic_views">
 
 			<h1>FANTASTIC VIEWS</h1>
 
@@ -202,8 +212,8 @@
 			<a href="#">View project</a>
 		</section>
 
-		<section class="col-md-3">
-			<img src="images/big_halls.jpg" alt="big_halls">
+		<section class="col-md-3 col-sm-6">
+			<img class="img-responsive" src="images/big_halls.jpg" alt="big_halls">
 
 			<h1>BiG HALLS</h1>
 
@@ -225,32 +235,32 @@
 
 	</div>
 	<div class="row">
-		<section class="col-md-3">
-			<img src="images/chris.jpg" alt="Chris Coyier">
+		<section class="col-sm-6 col-md-3  col-lg-3">
+			<img class="img-responsive" src="images/chris.jpg" alt="Chris Coyier">
 
 			<h1>Chris Coyier</h1>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam architecto ea aut culpa quia saepe labore
 				ipsa molestiae tempore. Harum sint dolore </p>
 		</section>
-		<section class="col-md-3">
-			<img src="images/adi_purdila.jpg" alt="Adi Purdila">
+		<section class="col-sm-6 col-md-3 col-lg-3">
+			<img class="img-responsive" src="images/adi_purdila.jpg" alt="Adi Purdila">
 
 			<h1>Adi Purdila</h1>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam architecto ea aut culpa quia saepe labore
 				ipsa molestiae tempore. Harum sint dolore </p>
 		</section>
-		<section class="col-md-3">
-			<img src="images/Paul_Irish.jpg" alt="Paul Irish">
+		<section class="col-sm-6 col-md-3 col-lg-3">
+			<img class="img-responsive" src="images/Paul_Irish.jpg" alt="Paul Irish">
 
 			<h1>Paul Irish</h1>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam architecto ea aut culpa quia saepe labore
 				ipsa molestiae tempore. Harum sint dolore </p>
 		</section>
-		<section class="col-md-3">
-			<img src="images/meyer.jpg" alt="eric Meyer">
+		<section class="col-sm-6 col-md-3 col-lg-3">
+			<img class="img-responsive" src="images/meyer.jpg" alt="eric Meyer">
 
 			<h1>Eric Meyer</h1>
 
@@ -264,14 +274,14 @@
 <footer class="container-fluid">
 	<section class="container">
 		<div class="row">
-			<section class="col-md-3 text-widget">
+			<section class="col-md-3 col-sm-6  text-widget">
 				<h1>Text Widget</h1>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vero laborum magnam ratione
 					temporibus dolorum fugiat qui autem, eveniet pariatur distinctio cupiditate rerum, animi fuga
 					deserunt? Minus, eum repellendus eligendi.</p>
 			</section>
-			<section class="col-md-3 links-widget">
+			<section class="col-md-3 col-sm-6  links-widget">
 				<h1>Links widget</h1>
 				<ul>
 					<li>these words will</li>
@@ -282,23 +292,25 @@
 					<li>will remind</li>
 				</ul>
 			</section>
-			<section class="col-md-3 twitter-widget">
+			<section class="col-md-3 col-sm-6 twitter-widget">
 				<h1>Twitter widget</h1>
 
-				<div class="twitter-birde"></div>
+
 				<div class="twitter-panel">
 					<h4>2 Days Ago</h4>
 
 					<p>I believe that this nation should commit itself to achieving the goal ...</p>
 				</div>
 			</section>
-			<section class="col-md-3 form-widget">
+			<section class="col-md-3 col-sm-6 form-widget">
 				<h1>Form Widget</h1>
 
 				<form>
 					<input name="name" type="text" class="form-control" placeholder="name">
 					<input name="mail" type="email" class="form-control" placeholder="email">
-					<textarea name="text" class="form-control" placeholder="message"></textarea>
+					<div class="wrapper-textarea form-control">
+						<textarea name="text"  placeholder="message"></textarea>
+					</div>
 					<button>send</button>
 				</form>
 			</section>
@@ -313,7 +325,7 @@
 	</section>
 </footer>
 
-<script src="js/jquery.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 
